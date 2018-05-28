@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2018, 6:18:07 PM
+    Author     : Dell
+*/
+.hrs {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f41d28;
+    padding: 0;
+    width: 40px;
+    margin-top: -0.3%;
+}
+
+.hrsline {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    padding: 0; 
+    width: 35px;
+    margin-top: -0.5%;
+}
+
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+  font-size: 25px;
+}
+
+.navbar-default .navbar-brand {
+  margin-top: 10px;
+  color: black;
+}
+.navbar-default .navbar-brand:hover {
+  color: black;
+  border: 1px solid black;
+}
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  margin: 10px 5px 5px 5px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+  color: black;
+  border: 1px solid black;
+}
+.navbar-default .navbar-nav > li > a:visited {
+  color: black;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: white;
+}
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: black;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  color: white;
+  background-color: black;
+}
+.navbar-default .navbar-collapse.collapse.in ul {
+  background-color: #f41d28;
+}
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: #f41d28;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+  color: #C57ED3;
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  color: black;
+  transition: color 1s ease 0s;
+}
+
+.about {
+  background-color: #C57ED3;
+  color: #490D40;
+  height: 600px;
+  text-align: center;
+  margin-top: -20px;
+}
+.about h2 {
+  padding-top: 220px;
+}
+.about p {
+  padding: 20px 80px;
+}
